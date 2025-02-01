@@ -53,7 +53,7 @@ to see the logs which program has about the user
 
 ## Dependencies
 
-- SQLite3 library for C++ (`sqlite3.h`).
+- SQLite3 library for C++ (`sqlite3.h`). I used `vcpkg` on here.
 - Standard C++ libraries.
 
 ## License
