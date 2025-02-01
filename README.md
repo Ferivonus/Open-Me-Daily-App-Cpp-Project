@@ -43,6 +43,14 @@ If the correct phrase is not entered, the program will simply log the applicatio
 
 In this case, the application will log the startup but won't mark the password as entered.
 
+For interested people I add the input of:
+
+``` bash
+    ./application "my logs"
+```
+
+to see the logs which program has about the user
+
 ## Dependencies
 
 - SQLite3 library for C++ (`sqlite3.h`).
