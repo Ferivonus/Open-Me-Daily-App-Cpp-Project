@@ -17,6 +17,8 @@ public:
     void runner();
     void markPasswordEntered();
 
+    void showLogs();
+
 private:
     void executeSQL(const std::string& sql);
     sqlite3* db;
