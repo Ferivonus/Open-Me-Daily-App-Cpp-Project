@@ -1,8 +1,14 @@
 #include <iostream>
 #include "check_opened.h"
 #include "hey_I_checked.h"
+#include <Windows.h>  // Include Windows.h to use FreeConsole
 
 int main(int argc, char* argv[]) {
+    // Hide the command prompt window
+    // Allocate a console window and then immediately free it
+    AllocConsole();
+    FreeConsole();
+
     // Expected phrase for password entry or to view logs
     std::string expected_phrase = "ben buradayým ve mutluyum";
     std::string logs_phrase = "my logs";
